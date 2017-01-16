@@ -1,8 +1,10 @@
+# Azimuth2
 Determines azimuth (compass direction) & range of the second point (B) as seen from the first point (A), given latitude, longitude & altitude of two points on the Earth.
 Also determine latitude, longitude, & altitude from given range, azimuth, and elevation.
 
 ## Original Author
 Moulded from [Don Cross](http://cosinekitty.com/)'s [Azimuth/Distance Calculator](http://cosinekitty.com/compass.html)
+
 Forked from [Debjeet Biswas](http://github.com/vxtindia/azimuth)
 
 ## Getting Started

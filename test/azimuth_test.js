@@ -36,10 +36,10 @@ exports['azimuth'] = {
   'p1 and p2': function(test) {
     test.expect(3);
 
-    var result = azimuth.azimuth(p1, p2);
-    test.strictEqual(result.distance, 3.9191090699705464, 'should be 3.9191090699705464');
+    var result = azimuth.RAE(p1, p2);
+    test.strictEqual(result.range, 3.9191090699705464, 'should be 3.9191090699705464');
     test.strictEqual(result.azimuth, 353.8149364508667, 'should be 353.8149364508667');
-    test.strictEqual(result.altitude, 1.3478271564744548, 'should be 1.3478271564744548');
+    test.strictEqual(result.elevation, 1.3478271564744548, 'should be 1.3478271564744548');
 
     test.done();
   },
@@ -47,10 +47,10 @@ exports['azimuth'] = {
   'p3 and p4': function(test) {
     test.expect(3);
 
-    var result = azimuth.azimuth(p3, p4);
-    test.strictEqual(result.distance, 146.3695785064461, 'should be 146.3695785064461');
+    var result = azimuth.RAE(p3, p4);
+    test.strictEqual(result.range, 146.3695785064461, 'should be 146.3695785064461');
     test.strictEqual(result.azimuth, 301.1325070052223, 'should be 301.1325070052223');
-    test.strictEqual(result.altitude, 1.2203756703617137, 'should be 1.2203756703617137');
+    test.strictEqual(result.elevation, 1.2203756703617137, 'should be 1.2203756703617137');
 
     test.done();
   },
@@ -58,10 +58,10 @@ exports['azimuth'] = {
   'p1 and p3': function(test) {
     test.expect(3);
 
-    var result = azimuth.azimuth(p1, p3);
-    test.strictEqual(result.distance, 11122807.442360276, 'should be 11122807.442360276');
+    var result = azimuth.RAE(p1, p3);
+    test.strictEqual(result.range, 11122807.442360276, 'should be 11122807.442360276');
     test.strictEqual(result.azimuth, 15.157702786841497, 'should be 15.157702786841497');
-    test.strictEqual(result.altitude, -60.77889891737464, 'should be -60.77889891737464');
+    test.strictEqual(result.elevation, -60.77889891737464, 'should be -60.77889891737464');
 
     test.done();
   }

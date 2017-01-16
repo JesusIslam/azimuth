@@ -1,24 +1,23 @@
 {
-  "name": "azimuth",
+  "name": "azimuth2",
   "description": "Determines azimuth & distance of the second point (B) as seen from the first point (A), given latitude, longitude & elevation of two points on the Earth",
-  "version": "0.1.0",
-  "homepage": "https://github.com/vxtindia/azimuth",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JesusIslam/azimuth",
   "author": {
-    "name": "Debjeet Biswas",
-    "email": "debjeet@vxtindia.com",
-    "url": "http://200ok.ghost.io/"
+    "name": "Andida Syahendar",
+    "email": "omicron.b3ta@gmail.com",
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:vxtindia/azimuth.git"
+    "url": "git@github.com:JesusIslam/azimuth.git"
   },
   "bugs": {
-    "url": "https://github.com/vxtindia/azimuth/issues"
+    "url": "https://github.com/JesusIslam/azimuth/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/vxtindia/azimuth/blob/master/LICENSE"
+      "url": "https://github.com/JesusIslam/azimuth/blob/master/LICENSE"
     }
   ],
   "main": "lib/azimuth",
